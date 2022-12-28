@@ -49,6 +49,7 @@ A short-guide focused on implementing custom Dockerfiles
 # 3. Prerequisite
 
 - Before next steps **make sure your Docker Desktop is running**
+  https://docs.docker.com/desktop/
 
 - It's possible to have only Docker Engine, however, you would have to use CLI
 
@@ -117,7 +118,7 @@ docker run -it --name my-hello-docker-1 my-hello-docker
 
 - You should get immediately interactive terminal inside that container with Bash shell
 
-- You can try commands like ls
+- You can try commands like *ls*
 
 ![bg right:40% 100%](doc/img/hello-docker-run-1b.png)
 
@@ -192,3 +193,11 @@ docker attach my-hello-docker-1
 
 ---
 
+# 14. CLI Reference Help
+
+- CLI root reference help is on URL:
+
+https://docs.docker.com/engine/reference/commandline/docker/
+
+
+![bg right:40% 100%](doc/img/docker-docs-reference-ps.png)
